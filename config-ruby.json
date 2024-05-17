@@ -1,0 +1,30 @@
+{
+  "gemAuthorEmail" : "core@digitalfemsa.com",
+  "gemAuthor": "DigitalFemsa",
+  "gemName" : "digital_femsa",
+  "gemLicense": "MIT",
+  "gemVersion": "1.0.0",
+  "hideGenerationTimestamp": false,
+  "moduleName": "DigitalFemsa",
+  "gemSummary" : "This library provides https://api.digitalfemsa.io operations",
+  "gemHomepage" : "https://www.digitalfemsa.com",
+  "gemDescription" : "Ruby library for https://api.digitalfemsa.io",
+  "library": "faraday",
+  "httpUserAgent": "App/v2 RubyBindings/#{DigitalFemsa::VERSION}",
+  "gemRequiredRubyVersion" : ">= 2.6",
+  "templateDir": "local/templates/ruby",
+  "gitUserId" : "digitalfemsa",
+  "gitRepoId" : "digitalfemsa-ruby",
+  "files": {
+    "/local/CODE_OF_CONDUCT.md": {},
+    "/local/CONTRIBUTING.md": {},
+    "/local/LICENSE": {},
+    "/local/ssl_data/ca_bundle.crt": {
+      "destinationFilename": "lib/ssl_data/ca_bundle.crt"
+    },
+    "CUSTOM_VERSION.mustache": {
+      "templateType": "SupportingFiles",
+      "destinationFilename": "VERSION"
+    }
+  }
+}
